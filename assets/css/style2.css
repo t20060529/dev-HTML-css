@@ -1,0 +1,98 @@
+header {
+    width : 100%;
+    height : 250px;
+    background-image: linear-gradient(to right, rgb(130, 130, 238),pink);
+    
+}
+
+main {
+    background-color: black;
+}
+
+.navig, .foot {
+    display : inline-flex;
+    font-size : x-large;
+    text-align : center; 
+}
+
+
+.image_un #image1{
+    width : 70%;
+    height : 70%;
+    margin-right : 2.5em;
+    margin-top: 1.5em;
+}
+
+#image1 {
+    border-radius : 50%
+
+}
+
+.menu {
+    width : 60%;
+    margin-top : 100px;
+    margin-left : 30px; 
+}
+
+footer ul li,
+nav ul li {
+    display : inline-block;
+    text-align : inherit;
+    font-size : inherit; 
+}
+
+.titre_un {
+    width : 100%;
+    text-align: center;
+}
+
+h1 {
+    color :rgb(130, 130, 238);
+    font-size: xxx-large;
+}
+
+.image_deux #image2{
+    width : 90%;
+    height: 300px;
+    align-items: center;
+}
+
+.section_un{
+    border: 1px solid #444;
+    width: 100%;
+    justify-content: center; /* Centre horizontalement */
+}
+.paragraphs {
+    border: 1px solid #444;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px; /* Ajoute un peu de padding si nécessaire */
+    text-align: center;
+}
+
+/* section qui contient les paragraphes */
+.paragraphs div{
+    border: 1px solid #444;
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    color : white;
+}
+
+/*
+.paragraphs p{
+    width: 50%;
+    height : 300px;
+    text-align : center; 
+    position: sticky;
+}
+*/
+.section_deux {
+    width: 100%;
+    height: 200px; 
+    text-align: center; 
+}
+
+/* Paragraphe */
+

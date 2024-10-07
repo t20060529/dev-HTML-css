@@ -1,0 +1,125 @@
+
+header, footer {
+    font-style : arial, sans-serif;
+    background-color: rgb(195, 253, 234);
+    width : 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height : 270px;
+
+}
+
+
+
+.boutons {
+    width : 70%;
+    height : 270px;
+    padding-bottom : 200px;
+    justify-content : baseline;
+
+}
+
+
+#logo {
+    margin-top : 2%;
+    margin-bottom : 5%; 
+    margin-left: 77%;
+    border-radius : 50%;
+    
+    transition : transform 0.5s ease 0s;
+}
+
+#logo:hover {
+    transform : translateX(-5px);
+}
+
+button {
+    margin-bottom : 2em;  
+    font-weight : 700;
+    font-size: medium;
+    color : rgb(247, 99, 170);
+    background-color :rgb(238, 191, 221);
+    border: 3.5px solid rgb(226, 43, 147);
+    border-radius : 5px; 
+    transition : transform, 1s, ease, 0s;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    background-color: rgb(226, 43, 147);
+    color : white
+}
+
+.title {
+    text-align: center;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color : black
+}
+
+#agatha {
+    border-radius : 50%; 
+    position:sticky;
+    margin-left: 42%;
+
+    transition : transform 0.5s ease 0s;
+}
+
+#agatha:hover{
+    transform: rotate();
+}
+
+#section_un {
+    width : 100%; 
+    max-height : 20%;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+        color:rgb(79, 3, 51);
+    }
+    to {
+        transform: translateX(0); 
+        color : black;
+    }
+}
+
+.title {
+    animation-name: slideInLeft;
+    animation-duration : 1s;
+    animation-timing-function : ease-in;
+    animation-delay: 0s;
+    animation-iteration-count : 1;
+    animation-direction : normal; 
+    animation-fill-mode : none; 
+}
+
+#article_un {
+    text-align: center;
+}
+
+#les_articles, #osf {
+    width : 70%; 
+    height: 35%;
+    display: flex; 
+    align-items: baseline;
+    justify-content : space-between; 
+}
+
+
+#premier_article, #deuxieme_article, #troisieme_article { 
+    width: 10em;
+    height : 10em; 
+    border-radius: 5px;
+    text-align: center;
+
+    background-color : rgb(245, 232, 220);
+}
+
+aside {
+    width : 30%; 
+
+    margin-left : 72%; 
+}
+
